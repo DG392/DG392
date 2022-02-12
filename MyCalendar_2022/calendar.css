@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.calendar {
+    position: relative;
+    border: solid 1px red;
+    padding: 10px;
+    background-color: black;
+}
+
+.month {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    background: url(matthew-landers-v_Ydqd4ckSM-unsplash.jpg);
+    background-size: 15%;
+    padding: 80px;  
+    font-size: xx-large; 
+}
+
+.days-of-week{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 1.2em;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 1.5em; 
+    font-weight: 900;
+    color: red;
+}
+
+.dates:first-child{
+    grid-column: 6;
+}

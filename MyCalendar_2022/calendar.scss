@@ -1,0 +1,21 @@
+.month {
+    color: red;
+    text-align: center;
+    font-weight: 600;
+}
+
+.days-of-week{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 1.2em;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 1.5em; 
+}
+
+.dates:first-child{
+    grid-column: 6;
+}
